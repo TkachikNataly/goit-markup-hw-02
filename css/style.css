@@ -150,6 +150,11 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.03em;
 }
+.portfolio-bt:hover,
+.portfolio-bt:focus {
+    color: var(--white-text-color);
+    background-color: var(--background-accent);
+}
 .portfolio-bt-current {
     background-color: var(--background-accent);
     color: var(--white-text-color)
