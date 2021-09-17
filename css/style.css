@@ -25,6 +25,17 @@ text-decoration: none;
 .link:focus {
     color: var(--accent-color);
 }
+.logo {
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--logo-color);
+}
+.logo-span {
+ color: var(--accent-color);
+}
 /*-----------Header--------------*/
 .header-link {
     font-weight: 500;
@@ -36,17 +47,6 @@ text-decoration: none;
 .header-link-accent {
     color: var(--accent-color);
 }
-.header-logo {
- font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--logo-color);
-}
-.header-logo-span {
-    color: var(--accent-color);
-}
 
 .header-link-contakt {
 font-weight: 500;
@@ -56,12 +56,22 @@ letter-spacing: 0.02em;
     color: var(--title-color);
 }
 
-/* цвет основного текста #212121 */
-
-/* вторичный  цвет текста #757575 */
-
-/* цвет background #E5E5E5 */
-
-/* белый цвет #FFFFFF */
-
-/* цвет акцента #2196F3 */
+/*-----------Footer-------------*/
+.footer-link {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+background-color:grey;
+color: rgba (255, 255, 255, 0.6);
+}
+.footer-link-adress {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+background-color: black;
+color: var(--white-text-color);
+}
