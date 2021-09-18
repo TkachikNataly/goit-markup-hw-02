@@ -4,9 +4,8 @@
     --title-secondary-color: #212121;
     --primary-text-color: #757575;
     --accent-color: #2196F3;
-    --white-text-color: #ffffff;
+    --lite-text-color: #ffffff;
     --logo-color: #000000;
-    --body-background-color: #e5e5e5;
     --background-section: #F5F4FA;
     --background-item: #ffffff;
     --background-accent: #2196F3;
@@ -14,7 +13,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--title-secondary-color);
-    background-color: var(--body-background-color);
+    background-color: var(--background-item);
 }
 .list {
     list-style: none;
@@ -95,7 +94,8 @@ text-decoration: none;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--white-text-color);
+    color: var(--lite-text-color);
+    border: 0;
 }
 
 /*-----------Zest---------------*/
@@ -142,22 +142,23 @@ text-decoration: none;
 }
 
 /*------------Portfolio-------------*/
-.porfolio-bt {
+.portfolio-bt {
     background-color: var(--background-section);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    border: 0;
 }
 .portfolio-bt:hover,
 .portfolio-bt:focus {
-    color: var(--white-text-color);
+    color: var(--lite-text-color);
     background-color: var(--background-accent);
 }
 .portfolio-bt-current {
     background-color: var(--background-accent);
-    color: var(--white-text-color)
+    color: var(--lite-text-color)
 }
 .portfolio-all  {
     background-color: var(--background-item);
@@ -179,14 +180,14 @@ text-decoration: none;
 }
 /*-----------Footer-------------*/
 .footer {
-    background-color: black;
+    background-color: #2F303A;
 }
 .footer-link-adress {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--white-text-color);
+    color: var(--lite-text-color);
 }
 
 .footer-link {
@@ -203,5 +204,5 @@ text-decoration: none;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--white-text-color);
+    color: var(--lite-text-color);
 }
