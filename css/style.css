@@ -1,19 +1,17 @@
 :root {
-    --heading-color: #ffffff;
-    --title-color: #212121;
     --title-secondary-color: #212121;
     --primary-text-color: #757575;
     --accent-color: #2196F3;
     --lite-text-color: #ffffff;
     --logo-color: #000000;
     --background-section: #F5F4FA;
-    --background-item: #ffffff;
-    --background-accent: #2196F3;
+    --section-color: #2F303A;
+    --border-color: #EEEEEE;
     }
 body {
     font-family: "Roboto", sans-serif;
     color: var(--title-secondary-color);
-    background-color: var(--background-item);
+    background-color: var(--lite-text-color);
 }
 .list {
     list-style: none;
@@ -47,7 +45,7 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--title-color);
+    color: var(--title-secondary-color);
 }
 .current {
     color: var(--accent-color);
@@ -64,7 +62,7 @@ text-decoration: none;
     color: var(--primary-text-color);
 }
 .section-title-two {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -74,7 +72,7 @@ text-decoration: none;
 /*-----------Main---------------*/
 /*-----------Heroy--------------*/
 .section-heroy {
-    background-color: #2F303A;
+    background-color: var(--section-color);
 }
 .heroy-title {
     font-weight: 900;
@@ -83,10 +81,12 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--heading-color);
+    color: var(--lite-text-color);
+    text-transform: uppercase;
 }
 .section-heroy-bt {
     background-color: var(--accent-color);
+    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -122,7 +122,7 @@ text-decoration: none;
 }
 
 .team-item {
-    background-color: var(--background-item);
+    background-color: var(--lite-text-color);
 }
 
 .team-title-three {
@@ -142,45 +142,51 @@ text-decoration: none;
 }
 
 /*------------Portfolio-------------*/
+  
 .portfolio-bt {
-    background-color: var(--background-section);
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    background-color: var(--background-section);
     border: 0;
 }
 .portfolio-bt:hover,
 .portfolio-bt:focus {
     color: var(--lite-text-color);
-    background-color: var(--background-accent);
+    background-color: var(--accent-color);
 }
 .portfolio-bt-current {
-    background-color: var(--background-accent);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--accent-color);
     color: var(--lite-text-color)
 }
 .portfolio-all  {
-    background-color: var(--background-item);
+    background-color: var(--lite-text-color);
 }
 
 .portfolio-title-two {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
-    border: 1px solid #EEEEEE 
+    letter-spacing: 0.06em; 
 }
 .portfolio-p {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    border: 1px solid #EEEEEE;  
+    color: var(--primary-text-color); 
 }
 /*-----------Footer-------------*/
 .footer {
-    background-color: #2F303A;
+    background-color: var(--section-color);
 }
 .footer-link-adress {
     font-style: normal;
